@@ -1,6 +1,0 @@
-framework module Pods_RxOptional_Tests {
-  umbrella header "Pods-RxOptional Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
