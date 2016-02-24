@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54420DE51C7E14B60030C774 /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 54420DE41C7E14B60030C774 /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54420E071C7E16780030C774 /* Driver+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E001C7E16780030C774 /* Driver+Occupiable.swift */; };
-		54420E081C7E16780030C774 /* Driver+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E011C7E16780030C774 /* Driver+Optional.swift */; };
-		54420E091C7E16780030C774 /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E021C7E16780030C774 /* Observable+Occupiable.swift */; };
-		54420E0A1C7E16780030C774 /* Observbale+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E031C7E16780030C774 /* Observbale+Optional.swift */; };
-		54420E0B1C7E16780030C774 /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E041C7E16780030C774 /* Occupiable.swift */; };
-		54420E0C1C7E16780030C774 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E051C7E16780030C774 /* OptionalType.swift */; };
-		54420E0D1C7E16780030C774 /* RxOptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54420E061C7E16780030C774 /* RxOptionalError.swift */; };
-		54420E0F1C7E16820030C774 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54420E0E1C7E16820030C774 /* RxSwift.framework */; };
+		543C715F1C7E19EF005BE078 /* Driver+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C71581C7E19EF005BE078 /* Driver+Occupiable.swift */; };
+		543C71601C7E19EF005BE078 /* Driver+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C71591C7E19EF005BE078 /* Driver+Optional.swift */; };
+		543C71611C7E19EF005BE078 /* Observable+Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C715A1C7E19EF005BE078 /* Observable+Occupiable.swift */; };
+		543C71621C7E19EF005BE078 /* Observbale+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C715B1C7E19EF005BE078 /* Observbale+Optional.swift */; };
+		543C71631C7E19EF005BE078 /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C715C1C7E19EF005BE078 /* Occupiable.swift */; };
+		543C71641C7E19EF005BE078 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C715D1C7E19EF005BE078 /* OptionalType.swift */; };
+		543C71651C7E19EF005BE078 /* RxOptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C715E1C7E19EF005BE078 /* RxOptionalError.swift */; };
+		543C71671C7E19F6005BE078 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C71661C7E19F6005BE078 /* RxSwift.framework */; };
+		5472A8441C7E19A1001FDB4C /* RxOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 5472A8431C7E19A1001FDB4C /* RxOptional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54420DE11C7E14B50030C774 /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54420DE41C7E14B60030C774 /* RxOptional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxOptional.h; sourceTree = "<group>"; };
-		54420DE61C7E14B60030C774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54420E001C7E16780030C774 /* Driver+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Occupiable.swift"; path = "Source/Driver+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
-		54420E011C7E16780030C774 /* Driver+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Optional.swift"; path = "Source/Driver+Optional.swift"; sourceTree = SOURCE_ROOT; };
-		54420E021C7E16780030C774 /* Observable+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Occupiable.swift"; path = "Source/Observable+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
-		54420E031C7E16780030C774 /* Observbale+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observbale+Optional.swift"; path = "Source/Observbale+Optional.swift"; sourceTree = SOURCE_ROOT; };
-		54420E041C7E16780030C774 /* Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Occupiable.swift; path = Source/Occupiable.swift; sourceTree = SOURCE_ROOT; };
-		54420E051C7E16780030C774 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Source/OptionalType.swift; sourceTree = SOURCE_ROOT; };
-		54420E061C7E16780030C774 /* RxOptionalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxOptionalError.swift; path = Source/RxOptionalError.swift; sourceTree = SOURCE_ROOT; };
-		54420E0E1C7E16820030C774 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
+		543C71581C7E19EF005BE078 /* Driver+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Occupiable.swift"; path = "Source/Driver+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
+		543C71591C7E19EF005BE078 /* Driver+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+Optional.swift"; path = "Source/Driver+Optional.swift"; sourceTree = SOURCE_ROOT; };
+		543C715A1C7E19EF005BE078 /* Observable+Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Occupiable.swift"; path = "Source/Observable+Occupiable.swift"; sourceTree = SOURCE_ROOT; };
+		543C715B1C7E19EF005BE078 /* Observbale+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observbale+Optional.swift"; path = "Source/Observbale+Optional.swift"; sourceTree = SOURCE_ROOT; };
+		543C715C1C7E19EF005BE078 /* Occupiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Occupiable.swift; path = Source/Occupiable.swift; sourceTree = SOURCE_ROOT; };
+		543C715D1C7E19EF005BE078 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Source/OptionalType.swift; sourceTree = SOURCE_ROOT; };
+		543C715E1C7E19EF005BE078 /* RxOptionalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxOptionalError.swift; path = Source/RxOptionalError.swift; sourceTree = SOURCE_ROOT; };
+		543C71661C7E19F6005BE078 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
+		5472A8401C7E19A1001FDB4C /* RxOptional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxOptional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5472A8431C7E19A1001FDB4C /* RxOptional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxOptional.h; sourceTree = "<group>"; };
+		5472A8451C7E19A1001FDB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54420DDD1C7E14B50030C774 /* Frameworks */ = {
+		5472A83C1C7E19A1001FDB4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54420E0F1C7E16820030C774 /* RxSwift.framework in Frameworks */,
+				543C71671C7E19F6005BE078 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54420DD71C7E14B50030C774 = {
+		5472A8361C7E19A1001FDB4C = {
 			isa = PBXGroup;
 			children = (
-				54420DE31C7E14B60030C774 /* RxOptional */,
-				54420DE21C7E14B50030C774 /* Products */,
+				5472A8421C7E19A1001FDB4C /* RxOptional */,
+				5472A8411C7E19A1001FDB4C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54420DE21C7E14B50030C774 /* Products */ = {
+		5472A8411C7E19A1001FDB4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54420DE11C7E14B50030C774 /* RxOptional.framework */,
+				5472A8401C7E19A1001FDB4C /* RxOptional.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54420DE31C7E14B60030C774 /* RxOptional */ = {
+		5472A8421C7E19A1001FDB4C /* RxOptional */ = {
 			isa = PBXGroup;
 			children = (
-				54420DE41C7E14B60030C774 /* RxOptional.h */,
-				54420E001C7E16780030C774 /* Driver+Occupiable.swift */,
-				54420E011C7E16780030C774 /* Driver+Optional.swift */,
-				54420E021C7E16780030C774 /* Observable+Occupiable.swift */,
-				54420E031C7E16780030C774 /* Observbale+Optional.swift */,
-				54420E041C7E16780030C774 /* Occupiable.swift */,
-				54420E051C7E16780030C774 /* OptionalType.swift */,
-				54420E061C7E16780030C774 /* RxOptionalError.swift */,
-				54420E0E1C7E16820030C774 /* RxSwift.framework */,
-				54420DE61C7E14B60030C774 /* Info.plist */,
+				543C71581C7E19EF005BE078 /* Driver+Occupiable.swift */,
+				543C71591C7E19EF005BE078 /* Driver+Optional.swift */,
+				543C715A1C7E19EF005BE078 /* Observable+Occupiable.swift */,
+				543C715B1C7E19EF005BE078 /* Observbale+Optional.swift */,
+				543C715C1C7E19EF005BE078 /* Occupiable.swift */,
+				543C715D1C7E19EF005BE078 /* OptionalType.swift */,
+				543C715E1C7E19EF005BE078 /* RxOptionalError.swift */,
+				5472A8431C7E19A1001FDB4C /* RxOptional.h */,
+				5472A8451C7E19A1001FDB4C /* Info.plist */,
+				543C71661C7E19F6005BE078 /* RxSwift.framework */,
 			);
 			path = RxOptional;
 			sourceTree = "<group>";
@@ -80,25 +80,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54420DDE1C7E14B50030C774 /* Headers */ = {
+		5472A83D1C7E19A1001FDB4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54420DE51C7E14B60030C774 /* RxOptional.h in Headers */,
+				5472A8441C7E19A1001FDB4C /* RxOptional.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54420DE01C7E14B50030C774 /* RxOptional */ = {
+		5472A83F1C7E19A1001FDB4C /* RxOptional */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54420DE91C7E14B60030C774 /* Build configuration list for PBXNativeTarget "RxOptional" */;
+			buildConfigurationList = 5472A8481C7E19A1001FDB4C /* Build configuration list for PBXNativeTarget "RxOptional" */;
 			buildPhases = (
-				54420DDC1C7E14B50030C774 /* Sources */,
-				54420DDD1C7E14B50030C774 /* Frameworks */,
-				54420DDE1C7E14B50030C774 /* Headers */,
-				54420DDF1C7E14B50030C774 /* Resources */,
+				5472A83B1C7E19A1001FDB4C /* Sources */,
+				5472A83C1C7E19A1001FDB4C /* Frameworks */,
+				5472A83D1C7E19A1001FDB4C /* Headers */,
+				5472A83E1C7E19A1001FDB4C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -106,42 +106,43 @@
 			);
 			name = RxOptional;
 			productName = RxOptional;
-			productReference = 54420DE11C7E14B50030C774 /* RxOptional.framework */;
+			productReference = 5472A8401C7E19A1001FDB4C /* RxOptional.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54420DD81C7E14B50030C774 /* Project object */ = {
+		5472A8371C7E19A1001FDB4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Ignition Soft";
 				TargetAttributes = {
-					54420DE01C7E14B50030C774 = {
-						CreatedOnToolsVersion = 7.3;
+					5472A83F1C7E19A1001FDB4C = {
+						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 54420DDB1C7E14B50030C774 /* Build configuration list for PBXProject "RxOptional" */;
+			buildConfigurationList = 5472A83A1C7E19A1001FDB4C /* Build configuration list for PBXProject "RxOptional" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 54420DD71C7E14B50030C774;
-			productRefGroup = 54420DE21C7E14B50030C774 /* Products */;
+			mainGroup = 5472A8361C7E19A1001FDB4C;
+			productRefGroup = 5472A8411C7E19A1001FDB4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54420DE01C7E14B50030C774 /* RxOptional */,
+				5472A83F1C7E19A1001FDB4C /* RxOptional */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54420DDF1C7E14B50030C774 /* Resources */ = {
+		5472A83E1C7E19A1001FDB4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,28 +152,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54420DDC1C7E14B50030C774 /* Sources */ = {
+		5472A83B1C7E19A1001FDB4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54420E0B1C7E16780030C774 /* Occupiable.swift in Sources */,
-				54420E091C7E16780030C774 /* Observable+Occupiable.swift in Sources */,
-				54420E071C7E16780030C774 /* Driver+Occupiable.swift in Sources */,
-				54420E0C1C7E16780030C774 /* OptionalType.swift in Sources */,
-				54420E0D1C7E16780030C774 /* RxOptionalError.swift in Sources */,
-				54420E0A1C7E16780030C774 /* Observbale+Optional.swift in Sources */,
-				54420E081C7E16780030C774 /* Driver+Optional.swift in Sources */,
+				543C71631C7E19EF005BE078 /* Occupiable.swift in Sources */,
+				543C71611C7E19EF005BE078 /* Observable+Occupiable.swift in Sources */,
+				543C715F1C7E19EF005BE078 /* Driver+Occupiable.swift in Sources */,
+				543C71641C7E19EF005BE078 /* OptionalType.swift in Sources */,
+				543C71651C7E19EF005BE078 /* RxOptionalError.swift in Sources */,
+				543C71621C7E19EF005BE078 /* Observbale+Optional.swift in Sources */,
+				543C71601C7E19EF005BE078 /* Driver+Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		54420DE71C7E14B60030C774 /* Debug */ = {
+		5472A8461C7E19A1001FDB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -206,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -217,11 +217,10 @@
 			};
 			name = Debug;
 		};
-		54420DE81C7E14B60030C774 /* Release */ = {
+		5472A8471C7E19A1001FDB4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -249,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -259,7 +258,7 @@
 			};
 			name = Release;
 		};
-		54420DEA1C7E14B60030C774 /* Debug */ = {
+		5472A8491C7E19A1001FDB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -278,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		54420DEB1C7E14B60030C774 /* Release */ = {
+		5472A84A1C7E19A1001FDB4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -299,25 +298,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54420DDB1C7E14B50030C774 /* Build configuration list for PBXProject "RxOptional" */ = {
+		5472A83A1C7E19A1001FDB4C /* Build configuration list for PBXProject "RxOptional" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54420DE71C7E14B60030C774 /* Debug */,
-				54420DE81C7E14B60030C774 /* Release */,
+				5472A8461C7E19A1001FDB4C /* Debug */,
+				5472A8471C7E19A1001FDB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54420DE91C7E14B60030C774 /* Build configuration list for PBXNativeTarget "RxOptional" */ = {
+		5472A8481C7E19A1001FDB4C /* Build configuration list for PBXNativeTarget "RxOptional" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54420DEA1C7E14B60030C774 /* Debug */,
-				54420DEB1C7E14B60030C774 /* Release */,
+				5472A8491C7E19A1001FDB4C /* Debug */,
+				5472A84A1C7E19A1001FDB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54420DD81C7E14B50030C774 /* Project object */;
+	rootObject = 5472A8371C7E19A1001FDB4C /* Project object */;
 }
