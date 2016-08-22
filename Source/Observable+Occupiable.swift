@@ -27,7 +27,7 @@ public extension ObservableType where E: Occupiable {
      sequence when element was empty.
      */
     @warn_unused_result(message: "http://git.io/rxs.uo")
-    public func catchOnEmpty(_ handler: () throws -> Observable<E>) -> Observable<E> {
+    public func catchOnEmpty(_ handler: @escaping () throws -> Observable<E>) -> Observable<E> {
         return self.flatMap { element -> Observable<E> in
             guard element.isNotEmpty else {
                 return try handler()
